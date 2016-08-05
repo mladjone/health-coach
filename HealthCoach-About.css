@@ -1,0 +1,301 @@
+@import url(http://fonts.googleapis.com/css?family=Oregano);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Oregano";
+}
+h2{
+	font-size: 200%;
+	font-weight: normal;
+	margin-top: 16px;
+	margin-bottom: 0;
+}
+p{
+	font-family: "Open Sans";
+}
+header {
+	position: absolute;
+	z-index: 999;
+	display: inline-block;
+	background-color: white;
+}
+header img#logo{
+	width: 20%;
+	vertical-align: sub;
+	margin-left: 50px;
+}
+header nav{
+	display: inline-block;
+}
+header nav ol{
+	list-style-type: none;
+	margin-left: 50px;
+}
+header nav ol li{
+	display: inline-block;
+}
+header nav a{
+	text-decoration: none;
+	color: black;
+	font-size: 80%;
+	padding: 0 8px;
+}
+header ul{
+	list-style-type: none;
+	display: inline-block;
+}
+header ul li{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: black;
+	border-radius: 50%;
+	border: 1px solid black;
+	display: inline-block;
+}
+/* *************************************************************************************** */
+section#firstSection img{
+	width: 100%;
+	height: 300px;
+}
+/* ************************************************************************************* */
+article#secondSection{
+	position: relative;
+	text-align: center;
+	background-color: white;
+}
+article#secondSection img#firstPic{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: #F0F0F0;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	border: 8px solid white;
+}
+article#secondSection  h1{
+	font-size: 300%;
+	font-weight: normal;
+	padding-top: 80px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.fa-diamond {
+	color: #2acd35;
+}
+article#secondSection p#nameIntro{
+	color: #CCCCCC;
+	font-size: 90%;
+}
+article#secondSection ul{
+	padding: 0;
+	display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+article#secondSection  ul li{
+	list-style-type: none;
+}
+article#secondSection ul li img{
+	width: 200px;
+}
+article#secondSection section{
+	-webkit-column-count: 2;
+	column-count: 2;
+}
+article#secondSection section h2{
+	font-size: 250%;
+}
+/* *************************************************************************************** */
+article#thirdSection{
+	text-align: center;
+	padding: 50px 0 100px 0;
+	background-color: #F0F0F0;
+}
+.fa-quote-left{
+	color: #2acd35;
+}
+article#thirdSection h1{
+	font-size: 250%;
+	margin: 0;
+	font-weight: normal;
+}
+/* *************************************************************************************** */
+article#fourthSection{
+	background-image: url(http://healthcoach.stylemixthemes.com/wp-content/uploads/2015/06/about-block-1_02.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: white;
+	text-align: center;
+}
+article#fourthSection span.radiusBorder{
+	width: 140px;
+	height: 70px;
+	border-radius: 0 0 140px 140px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	background-color: #F0F0F0;
+}
+article#fourthSection h2{
+	font-size: 250%;
+	margin-top: 0px;
+	padding-top: 50px;
+}
+article#fourthSection ul{
+	padding: 0;
+	display: flex;
+    justify-content: space-between;
+    padding: 0 0 50px 0;
+    margin-bottom: 0;
+}
+article#fourthSection  ul li{
+	list-style-type: none;
+}
+article#fourthSection  ul li h3{
+	text-align: center;
+	padding: 25px;
+	margin: 0 auto;
+	width: 70px;
+	height: 70px;
+	color: white;
+	font-size: 300%;
+	border-radius: 50%;
+	border: 3px solid #2acd35;
+}
+/* *************************************************************************************** */
+article#fifthSection{
+	text-align: center;
+	background-color: #F0F0F0;
+}
+article#fifthSection h2{
+	font-size: 250%;
+	margin-top: 0;
+	padding-top: 50px;
+}
+article#fifthSection ul{
+	padding: 0;
+	display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+article#fifthSection  ul li{
+	list-style-type: none;
+	width: 250px;
+}
+article#fifthSection  ul li img{
+	width: 250px;
+}
+ol#fifthSectionArticleSelection{
+	padding: 0 0 35px 0;
+	margin-bottom: 0;
+}
+ol#fifthSectionArticleSelection li{
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+}
+ol#fifthSectionArticleSelection li:first-child .fa-circle{
+	color: #2acd35;
+}
+ol#fifthSectionArticleSelection .fa-circle{
+	color: #CCCCCC;
+}
+/* *************************************************************************************** */
+footer{
+	background-color: black;
+}
+footer h2, h3{
+	color: #2acd35;
+}
+footer h5, footer h6, footer p{
+	color: white;
+}
+article#visitShop{
+	background-color: #2E2E2E;
+	overflow: hidden;
+	margin: 0px 40px 40px 40px;
+	border-radius: 0 0 10px 10px;
+}
+article#visitShop img#visitAshleysShop{
+	float: left;
+	padding: 5px 50px 30px 20px;
+}
+article#visitShop .fa-shopping-cart{
+	color: #2acd35;
+	float: left;
+	padding-right: 40px;
+}
+article#visitShop h2{
+	font-size: 300%;
+	margin: 0;
+}
+article#visitShop h5{
+	font-family: "Open Sans";
+	font-size: 100%;
+	font-weight: normal;
+}
+.fa-long-arrow-right{
+	color: #ADADAD;
+}
+.fa-long-arrow-right:hover{
+	color: #2acd35;
+}
+ul#infoFooter {
+	clear: both;
+}
+ul#infoFooter > li{
+	display: inline-block;
+	vertical-align:top;
+	width: 30%;
+	padding: 5px 20px 20px 0px;
+}
+ul#infoFooter p{
+	font-size: 80%;
+}
+.fa-twitter-square, .fa-facebook-square, .fa-instagram{
+	color: #ADADAD;
+	margin: 20px 30px 0 0;
+}
+.fa-twitter-square:hover, .fa-facebook-square:hover, .fa-instagram:hover{
+	color: #2acd35;
+}
+ul#infoFooter li:nth-child(2) a{
+	color: #ADADAD;
+}
+ul#infoFooter li:nth-child(2) a:hover{
+	color: white;
+}
+ul#infoFooter li:nth-child(3){
+	display: inline-block;
+}
+ul#infoFooter li:nth-child(3) ul{
+	padding: 0;
+	column-count: 2;
+	-webkit-column-count: 2;
+}
+ul#infoFooter li:nth-child(3) ul li{
+	column-count: 2;
+}
+ul#infoFooter li:nth-child(3) p{
+	color: #ADADAD;
+	font-size: 80%;
+	margin: 0 0 10px 0;
+}
+ul#infoFooter li:nth-child(4) img{
+	width: 80px;
+	margin: 5px;
+}
+article#endOfTheLine{
+	background-color: #2E2E2E;
+	overflow: hidden;
+	padding: 15px 30px 15px 30px;
+	font-size: 90%;
+}
+article#endOfTheLine p{
+	color: #ADADAD;
+}
+article#endOfTheLine p:first-child{
+	float: right;
+}

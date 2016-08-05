@@ -1,0 +1,583 @@
+@import url(http://fonts.googleapis.com/css?family=Oregano);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: "Oregano";
+}
+h2{
+	font-size: 200%;
+	font-weight: normal;
+	margin-top: 16px;
+	margin-bottom: 0;
+}
+p{
+	font-family: "Open Sans";
+}
+header {
+	margin-left: 50px;
+	position: absolute;
+	z-index: 999;
+	display: inline-block;
+}
+header img#logo{
+	width: 20%;
+	vertical-align: sub;
+}
+header nav{
+	display: inline-block;
+}
+header nav ol{
+	list-style-type: none;
+	margin-left: 50px;
+}
+header nav ol li{
+	display: inline-block;
+}
+header nav a{
+	text-decoration: none;
+	color: white;
+	font-size: 80%;
+	padding: 0 8px;
+}
+header ul{
+	list-style-type: none;
+	display: inline-block;
+}
+header ul li{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	border-radius: 50%;
+	border: 1px solid white;
+	display: inline-block;
+}
+/* ************************************************************************* */
+article#hero{
+	width: 100vw;
+	height: 90vh;
+	overflow: hidden;
+}
+article#zeroSection{
+	width: 100%;
+	background-image: url("https://files.slack.com/files-tmb/T0XEM8V24-F135R3JJU-dd5d255265/slider_1_bg_01-min_720.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: relative;
+	height: inherit;
+}
+img#pozadina{
+	width: 100%
+}
+img#ashley{
+	position: absolute;
+	width: 100%;
+	transform: translate(-15%, 15%);
+}
+article#textAshley{
+	position: absolute;
+	top: 40%;
+	right: 20%;
+}
+article#textAshley h1{
+	color: white;
+	font-size: 300%;
+	margin: 0;
+}
+article#textAshley p{
+	color: white;
+	padding-bottom: 15px;
+}
+article#textAshley p.aboutMe{
+	color: white;
+	border: 2px solid white;
+	border-radius: 25px;
+	padding: 8px 25px;
+	display: inline;
+	font-size: 80%;
+}
+article#textAshley p.aboutMe:hover{
+	background-color: white;
+	color: #2acd35;
+}
+.fa-angle-left{
+	position: absolute;
+	top: 45%;
+	left: 50px;
+	cursor: pointer;
+}
+.fa-angle-right{
+	position: absolute;
+	top: 45%;
+	right: 50px;
+	cursor: pointer;
+}
+article#zeroSectionOption2{
+	width: 100%;
+	background-image: url("http://healthcoach.stylemixthemes.com/wp-content/uploads/2015/09/Layer-123_02-min.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position: relative;
+	height: inherit;
+	top: -100%;                      /*  promena radi animacije u jquery-u [display: none] > [margin-left]   */
+}
+article#textAshley2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+article#textAshley2 h1{
+	color: white;
+	font-size: 300%;
+	margin: 0;
+}
+article#textAshley2 p{
+	color: white;
+	padding-bottom: 15px;
+}
+article#textAshley2 p.aboutMe2{
+	color: white;
+	border: 2px solid white;
+	border-radius: 25px;
+	padding: 8px 25px;
+	display: inline;
+	font-size: 80%;
+}
+article#textAshley2 p.aboutMe2:hover{
+	background-color: white;
+	color: #2acd35;
+}
+/* *************************************************************************** */
+span.radiusBorder{
+	width: 140px;
+	height: 70px;
+	border-radius: 140px 140px 0 0;
+	position: absolute;
+	transform: translate(-50%, -35%);
+	background-color: inherit;
+}
+.fa-diamond {
+	color: #2acd35;
+}
+article#firstSection{
+	position: relative;
+	text-align: center;
+	background-color: white;
+}
+article#firstSection ul{
+	padding: 0;
+	list-style-type: none;
+}
+article#firstSection ul li{
+	display: inline-block;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border: 1px solid #F0F0F0;
+	margin: 8px;
+}
+article#firstSection p.firstSectionDropdown{
+	font-size: 80%;
+	padding: 10px 20px 5px 20px;
+	margin: auto;
+}
+li.firstSectionPoint:hover{
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
+}
+.fa-hourglass-half, .fa-wpforms, .fa-lemon-o, .fa-heartbeat{
+	color: #2acd35;
+	margin-bottom: 0px;
+}
+.fistSectionDiv{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	bottom: 0px;
+}
+.firstSectionDropdown{
+	display: none;
+}
+.firstSectionPoint:hover .firstSectionDropdown{
+	display: block;
+}
+.firstSectionPoint:hover .firstSectionHide{
+	display: none;
+}
+article#firstSection > p{
+	margin: 0 15% 0 15%;
+}
+article#firstSection > p a{
+	color: #2acd35;
+	text-decoration: none;
+}
+article#firstSection > p a:hover{
+	 text-decoration: underline;
+}
+/* ******************************************************** */
+article#secondSection{
+	text-align: center;
+	background-color: #F5F4F3;
+	position: relative;
+}
+article#secondSection ul{
+	padding: 0;
+	list-style-type: none;
+}
+article#secondSection ul li{
+	display: inline-block;
+	position: relative;
+	width: 300px;
+	height: 250px;
+	margin: 8px;
+}
+article#secondSection ul li:hover{
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+}
+.secondSectionDiv{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	bottom: 0px;
+}
+.secondSectionDiv span.radiusBorder2{
+	width: 120px;
+	height: 60px;
+	border-radius: 120px 120px 0 0;
+	position: absolute;
+	margin: 0 auto;
+	transform: translate(-50%, -50%);
+	top: 0px;
+	background-color: white;
+	z-index: 0;
+}
+.fa-apple, .fa-bicycle, .fa-clock-o{
+	color: #2acd35;
+	position: absolute;
+	z-index: 1;
+	margin: 0 auto;
+	transform: translate(-50%, -50%);
+}
+article#secondSection ul li:first-child{
+	background-image: url(https://files.slack.com/files-tmb/T0XEM8V24-F134B84UB-b716bebc8a/1_-min-795x544_720.jpg);
+	background-size: cover;
+}
+article#secondSection ul li:nth-child(2){
+	background-image: url(https://files.slack.com/files-tmb/T0XEM8V24-F134B86R1-f614f942e2/2_-min-795x544_720.jpg);
+	background-size: cover;
+}
+article#secondSection ul li:nth-child(3){
+	background-image: url(https://files.slack.com/files-tmb/T0XEM8V24-F135THAR3-9f07b9679f/3_-min-795x544_720.jpg);
+	background-size: cover;
+}
+article#secondSection p{
+	background-color: white;
+	position: relative;
+	margin-bottom: 0;
+	padding: 20px 50px 30px 50px;
+}
+article#secondSection div.secondSectionDropdown{
+	background-color: white;
+	padding: 20px;
+}
+article#secondSection .secondSectionDropdown p{
+	background-color: #2acd35;
+	color: white;
+	border-radius: 25px;
+	padding: 10px 20px;
+	position: relative;
+	display: inline;
+	bottom: 30px;
+}
+article#secondSection .secondSectionDropdown p:hover{
+	background-color: #444444;
+}
+.secondSectionDropdown{
+	display: none;
+}
+.secondSectionPoint:hover .secondSectionDropdown{
+	display: block;
+}
+/* ****************************************************************** */
+article#thirdSection{
+	background-image: url(https://files.slack.com/files-tmb/T0XEM8V24-F135R3ETA-63f95aebfe/info-block-bg-1-min_720.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: white;
+	padding: 100px 400px 100px 30px;
+}
+article#thirdSection h1{
+	font-size: 300%;
+}
+article#thirdSection p.moreInfo{
+	color: white;
+	border: 2px solid white;
+	border-radius: 25px;
+	padding: 10px 40px;
+	display: inline;
+}
+article#thirdSection p.moreInfo:hover{
+	background-color: white;
+	color: #2acd35;
+}
+/* ****************************************************************** */
+article#fourthSection{
+	text-align: center;
+	background-color: white;
+	position: relative;
+}
+article#fourthSection ul{
+	padding: 0;
+	list-style-type: none;
+}
+article#fourthSection ul li{
+	background-size: cover;
+	background-position: center center;
+	display: inline-block;
+	position: relative;
+	width: 300px;
+	height: 250px;
+	margin: 8px;
+	border-bottom: 1px solid #ADADAD;
+}
+article#fourthSection ul li:hover{
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.3);
+}
+.fourthSectionDiv{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	bottom: 0px;
+}
+.fourthSectionDiv span.radiusBorder4{
+	width: 120px;
+	height: 60px;
+	border-radius: 120px 120px 0 0;
+	position: absolute;
+	margin: 0 auto;
+	transform: translate(-50%, -50%);
+	top: 0px;
+	background-color: white;
+	z-index: 0;
+}
+.fa-youtube-play, .fa-list-ul{
+	color: #2acd35;
+	position: absolute;
+	z-index: 1;
+	margin: 0 auto;
+	transform: translate(-50%, -50%);
+}
+article#fourthSection ul li:first-child{
+	background-image: url(https://files.slack.com/files-tmb/T0XEM8V24-F135R268G-d92539eaf7/4_-min-795x544_720.jpg);
+}
+article#fourthSection ul li:nth-child(2){
+	background-image: url(https://files.slack.com/files-tmb/T0XEM8V24-F134B8HMZ-b7aad5d7c8/5_-min-795x544_720.jpg);
+}
+article#fourthSection ul li:nth-child(3){
+	background-image: url(https://files.slack.com/files-tmb/T0XEM8V24-F135R2D5W-09523dcc02/6_-min-795x544_720.jpg);
+}
+article#fourthSection ul li:nth-child(4){
+	background-image: url(https://files.slack.com/files-tmb/T0XEM8V24-F135R2TJ4-0a56099fca/hc_5_720.jpg);
+}
+article#fourthSection ul li:nth-child(5){
+	background-image: url(https://files.slack.com/files-tmb/T0XEM8V24-F135H3VV2-80bc74849f/hc_1_720.jpg);
+}
+article#fourthSection ul li:nth-child(6){
+	background-image: url(https://files.slack.com/files-tmb/T0XEM8V24-F135YBQ6M-e96214368b/hc_22_720.jpg);
+}
+article#fourthSection p{
+	background-color: white;
+	position: relative;
+	margin-bottom: 0;
+	padding: 20px 50px 30px 50px;
+}
+article#fourthSection p.fourthSectionDropdown{
+	font-size: 80%;
+	padding: 0px 40px 30px 40px;
+	margin: auto;
+}
+.fourthSectionDropdown{
+	display: none;
+}
+.fourthSectionPoint:hover .fourthSectionDropdown{
+	display: block;
+}
+/* ********************************************************************** */
+article#fifthSection{
+	background-image: url(https://files.slack.com/files-tmb/T0XEM8V24-F135THS93-1f7df86f01/block-info-bg-2_02-min_720.jpg);
+	background-size: cover;
+	background-position: center;
+	color: white;
+	text-align: center;
+	padding: 100px;
+}
+article#fifthSection h1{
+	font-size: 300%;
+}
+article#fifthSection p{
+	font-size: 80%;
+}
+/* ********************************************************************** */
+article#sixthSection{
+	position: relative;
+	background-color: white;	
+	text-align: center;
+}
+article#sixthSection section{
+	display: inline-block;
+	border: 1px solid #F0F0F0;
+	padding: 8px;
+	float: left;
+	text-align: center;
+}
+article#sixthSection section#foldOver{
+	background-color: white;
+	position: relative;
+	left: -40px;
+	margin-top: 40px;
+}
+article#sixthSection img{
+	width: 250px;
+}
+article#sixthSection section h5{
+	padding: 0;
+	margin: 0;
+}
+article#sixthSection h4{
+	color: #2acd35;
+	font-family: "Open Sans";
+	text-align: left;
+	padding-top: 40px;
+}
+article#sixthSection h5{
+	color: #2acd35;
+	font-size: 120%;
+}
+article#sixthSection p{
+	text-align: left;
+	font-size: 80%;
+	overflow: hidden;
+}
+ul#sixthSectionArticleSelection{
+	clear: both;
+	padding: 0;
+}
+ul#sixthSectionArticleSelection li{
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+}
+ul#sixthSectionArticleSelection li:first-child .fa-circle{
+	color: #2acd35;
+}
+ul#sixthSectionArticleSelection li:nth-child(2) .fa-circle{
+	color: #CCCCCC;
+}
+/* ****************************************************************** */
+footer{
+	background-color: black;
+}
+footer h2, h3{
+	color: #2acd35;
+}
+footer h5, footer h6, footer p{
+	color: white;
+}
+article#visitShop{
+	background-color: #2E2E2E;
+	overflow: hidden;
+	margin: 0px 40px 40px 40px;
+	border-radius: 0 0 10px 10px;
+}
+article#visitShop img#visitAshleysShop{
+	float: left;
+	padding: 5px 50px 30px 20px;
+}
+article#visitShop .fa-shopping-cart{
+	color: #2acd35;
+	float: left;
+	padding-right: 40px;
+}
+article#visitShop h2{
+	font-size: 300%;
+	margin: 0;
+}
+article#visitShop h5{
+	font-family: "Open Sans";
+	font-size: 100%;
+	font-weight: normal;
+}
+.fa-long-arrow-right{
+	color: #ADADAD;
+}
+.fa-long-arrow-right:hover{
+	color: #2acd35;
+}
+ul#infoFooter {
+	clear: both;
+}
+ul#infoFooter > li{
+	display: inline-block;
+	vertical-align:top;
+	width: 30%;
+	padding: 5px 20px 20px 0px;
+}
+ul#infoFooter p{
+	font-size: 80%;
+}
+.fa-twitter-square, .fa-facebook-square, .fa-instagram{
+	color: #ADADAD;
+	margin: 20px 30px 0 0;
+}
+.fa-twitter-square:hover, .fa-facebook-square:hover, .fa-instagram:hover{
+	color: #2acd35;
+}
+ul#infoFooter li:nth-child(2) a{
+	color: #ADADAD;
+}
+ul#infoFooter li:nth-child(2) a:hover{
+	color: white;
+}
+ul#infoFooter li:nth-child(3){
+	display: inline-block;
+}
+ul#infoFooter li:nth-child(3) ul{
+	padding: 0;
+	column-count: 2;
+	-webkit-column-count: 2;
+}
+ul#infoFooter li:nth-child(3) ul li{
+	column-count: 2;
+}
+ul#infoFooter li:nth-child(3) p{
+	color: #ADADAD;
+	font-size: 80%;
+	margin: 0 0 10px 0;
+}
+ul#infoFooter li:nth-child(4) img{
+	width: 80px;
+	margin: 5px;
+}
+article#endOfTheLine{
+	background-color: #2E2E2E;
+	overflow: hidden;
+	padding: 15px 30px 15px 30px;
+	font-size: 90%;
+}
+article#endOfTheLine p{
+	color: #ADADAD;
+}
+article#endOfTheLine p:first-child{
+	float: right;
+}
